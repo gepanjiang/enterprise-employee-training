@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC   
+     "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+     "http://struts.apache.org/dtds/struts-2.0.dtd">
+     
+     
+<struts>
+    <package name="liu" extends="struts-default">
+        <global-results>
+            <result name="succeed">/common/succeed.jsp</result>
+            <result name="successAdd">/common/add_success.jsp</result>
+            <result name="successDel">/common/del_success.jsp</result>
+            <result name="successUpdate">/common/update_success.jsp</result>
+        </global-results>
+        
+         
+        
+        <action name="adminAdd" class="adminAction" method="adminAdd">
+        </action>
+        <action name="adminDel" class="adminAction" method="adminDel">
+        </action>
+        <action name="adminManage" class="adminAction" method="adminManage">
+            <result name="success">/admin/index/adminManage.jsp</result>
+        </action>
+        
+        
+        
+        <action name="orgMana" class="orgAction" method="orgMana">
+            <result name="success">/admin/org/orgMana.jsp</result>
+        </action>
+        <action name="addOrg" class="orgAction" method="addOrg">
+        </action>
+        <action name="delOrg" class="orgAction" method="delOrg">
+            <result name="haveChildOrganization">/admin/org/haveChildOrganization.jsp</result>
+            <result name="havePersons">/admin/org/havePersons.jsp</result>
+        </action>
+         <action name="orgAll" class="orgAction" method="orgAll">
+            <result name="success">/admin/yuangong/orgAll.jsp</result>
+        </action>
+        
+        
+        
+        <action name="yuangongAdd" class="yuangongAction" method="yuangongAdd">
+        </action>
+        <action name="yuangongMana" class="yuangongAction" method="yuangongMana">
+            <result name="success">/admin/yuangong/yuangongMana.jsp</result>
+        </action>
+        <action name="yuangongEditPre" class="yuangongAction" method="yuangongEditPre">
+            <result name="success">/admin/yuangong/yuangongEditPre.jsp</result>
+        </action>
+        <action name="yuangongEdit" class="yuangongAction" method="yuangongEdit">
+        </action>
+        
+        <action name="yuangongDel" class="yuangongAction" method="yuangongDel">
+        </action>
+        <action name="yuangongSearch" class="yuangongAction" method="yuangongSearch">
+             <result name="success">/admin/yuangong/yuangongMana.jsp</result>
+        </action>
+        
+        
+        
+        <action name="kechengAdd" class="kechengAction" method="kechengAdd">
+        </action>
+        <action name="kechengMana" class="kechengAction" method="kechengMana">
+            <result name="success">/admin/kecheng/kechengMana.jsp</result>
+        </action>
+        <action name="kechengDel" class="kechengAction" method="kechengDel">
+        </action>
+        <action name="kechengEditPre" class="kechengAction" method="kechengEditPre">
+            <result name="success">/admin/kecheng/kechengEditPre.jsp</result>
+        </action>
+        <action name="kechengEdit" class="kechengAction" method="kechengEdit">
+        </action>
+        <action name="kechengSearch" class="kechengAction" method="kechengSearch">
+            <result name="success">/admin/kecheng/kechengMana.jsp</result>
+        </action>
+        
+        
+        
+        <action name="peixunAdd" class="peixunAction" method="peixunAdd">
+        </action>
+        <action name="peixunMana" class="peixunAction" method="peixunMana">
+            <result name="success">/admin/peixun/peixunMana.jsp</result>
+        </action>
+        <action name="peixunDel" class="peixunAction" method="peixunDel">
+        </action>
+        <action name="peixunEditPre" class="peixunAction" method="peixunEditPre">
+            <result name="success">/admin/peixun/peixunEditPre.jsp</result>
+        </action>
+        <action name="peixunEdit" class="peixunAction" method="peixunEdit">
+        </action>
+        <action name="peixunSearch" class="peixunAction" method="peixunSearch">
+            <result name="success">/admin/peixun/peixunMana.jsp</result>
+        </action>
+        <action name="peixunAll" class="peixunAction" method="peixunAll">
+            <result name="success">/admin/peixunchengji/peixunAll.jsp</result>
+        </action>
+        
+        
+        <action name="peixunchengjiAdd" class="peixunchengjiAction" method="peixunchengjiAdd">
+            <result name="success">/admin/peixunchengji/peixunchengjiAdd_res.jsp</result>
+        </action>
+        <action name="peixunchengjiDel" class="peixunchengjiAction" method="peixunchengjiDel">
+            <result name="success">/admin/peixunchengji/peixunchengjiDel_res.jsp</result>
+        </action>
+        <action name="peixunchengjiMana" class="peixunchengjiAction" method="peixunchengjiMana">
+            <result name="success">/admin/peixunchengji/peixunchengjiMana.jsp</result>
+        </action>
+        
+    </package>
+</struts>
