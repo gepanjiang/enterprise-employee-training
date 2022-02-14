@@ -5,6 +5,10 @@
 
 企业员工培训管理系统的设计与实现(SQLServer)(含录像)(毕业论文9500字,程序代码,SQLServer数据库) 
 
+项目功能演示视频:  https://www.bilibili.com/video/BV1E34y117v1/
+需要远程调试咨询的，可以联系QQ-1305637939
+1811
+
  【项目包含内容】
 ![输入图片说明](images/1image.png)
 【项目功能介绍】
