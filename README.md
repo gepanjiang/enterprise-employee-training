@@ -3,35 +3,34 @@
 #### 介绍
 企业员工培训管理系统ssh
 
-#### 软件架构
-软件架构说明
+企业员工培训管理系统的设计与实现(SQLServer)(含录像)(毕业论文9500字,程序代码,SQLServer数据库) 
+
+ 【项目包含内容】
+![输入图片说明](images/1image.png)
+【项目功能介绍】
+
+具体功能介绍如下：
+（1）系统管理员负责管理整个系统，包括公司部门的管理、员工管理、培训课程的管理、培训计划的管理、培训成绩管理等功能
+（2）公司部门的管理，管理本系统所有的部门信息，对于存在错误信息的部门进行修改或者删除等操作。
+（3）员工信息管理，管理公司所有的员工信息，包括新员工的录入，已有员工的编辑和删除等操作。
+（4）培训课程的管理，对要进行培训的课程进行管理
+（5）系统管理，超级管理员和添加普通管理员，共同维护系统的安全性和管理整个系统。
+（6）修改个人密码，为了保障系统运行的安全性，管理员可以修改自己的登录密码
+（7）培训计划管理，改模块负责培训计划，包括录入新的培训计划和对已有的培训计划进行修改和删除等操作。 
 
 
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+【文档包含内容】
+![输入图片说明](images/2image.png)
+【文档部分截图】
+![输入图片说明](images/3image.png)
+![输入图片说明](images/4image.png)
+【项目运行截图】 
+![输入图片说明](images/5image.png)
+![输入图片说明](images/6image.png)
+![输入图片说明](images/7image.png)
+![输入图片说明](images/8image.png)
+![输入图片说明](images/9image.png)
+![输入图片说明](images/10image.png)
+![输入图片说明](images/11image.png)
+![输入图片说明](images/12image.png)
+![输入图片说明](images/13image.png)
